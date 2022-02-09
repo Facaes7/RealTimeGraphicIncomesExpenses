@@ -294,6 +294,7 @@ mysqli_close($enlace);
 	ctx.fillText("Jornales", 50, 175);
 	ctx.beginPath();
 	ctx.arc(150, 80, Math.sqrt((6362*por3/100)/Math.PI), 0, 2 * Math.PI);
+	/*This operation can be more simple categoryRadius=ExpensesCategory1*45/TotalExpenses     because Raius for TotalExpenses will be 45 as maximun radius*/
 	ctx.stroke();
 	ctx.fillText("Insumos", 150, 175);
 	ctx.beginPath();
